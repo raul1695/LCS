@@ -50,7 +50,7 @@ function solve($a, $b)
     return $matrix[$n - 1][$m - 1];
 }
 
-
+// Driver code 
 $res = solve("dddccbedccbccdecadabad","eeddaabbdbeddbecbdcddb");
 echo $res;
 
